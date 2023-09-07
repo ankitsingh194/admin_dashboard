@@ -1,0 +1,82 @@
+.s-sidebar{
+    background-color:white;
+    flex: 0.4;
+    border-right: 0.5px solid lightgrey;
+    height: 100vh;
+    width: 30%;
+    
+    
+
+}
+.s-top{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.s-logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+hr{
+    height: 0;
+    border: 0.5px solid lightgrey;
+}
+.s-center{
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.s-title{
+    font-size: 10px;
+    font-weight: bold;
+    color: #999;
+    margin-top:15px ;
+    margin-bottom: 15px;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    cursor: pointer;
+}
+li:hover{
+    background-color: #ece8ff;
+    
+}
+.s-icon{
+    font-size: 18px;
+    color: #7451f8;
+}
+span{
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+    margin-left: 10px;
+}
+.s-bottoms{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.s-colorOption{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #7451f8;
+    cursor: pointer;
+    margin: 5px;
+}
+.s-colorOption:nth-child(1){
+    background-color: whitesmoke;
+
+}
+.s-colorOption:nth-child(2){
+    background-color: #333;
+
+}
